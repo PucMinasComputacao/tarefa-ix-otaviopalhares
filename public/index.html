@@ -1,24 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Mini Ecommerce</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Mini Ecommerce</h1>
+    <header>
+        <h1>Mini Ecommerce</h1>
+    </header>
 
-  <div class="controls">
-    <input type="text" id="search" placeholder="Buscar produto...">
+    <main>
+        <section class="controls">
+            <input type="text" id="search" placeholder="Buscar produto...">
+            
+            <select id="category">
+                <option value="Todas">Todas</option>
+            </select>
 
-    <select id="category"></select>
+            <button id="btnRender">Renderizar</button>
+        </section>
 
-    <button id="btnRender">Renderizar</button>
-  </div>
+        <section class="container">
+            <div id="product-list">
+                <!-- Cards serão renderizados aqui -->
+            </div>
 
-  <div id="product-list"></div>
+            <div id="product-details">
+                <p>Clique em "Ver detalhes" para ver mais informações.</p>
+            </div>
+        </section>
+    </main>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
