@@ -1,14 +1,14 @@
 // B.1. Base de Dados
 const data = {
     produtos: [
-        { id: 1, nome: "iPhone 13", preco: 4500.00, categoria: "Celulares", imagem: "https://picsum.photos/200/200?random=1", descricao: "Smartphone Apple com excelente câmera.", emEstoque: true },
-        { id: 2, nome: "Samsung S22", preco: 3800.00, categoria: "Celulares", imagem: "https://picsum.photos/200/200?random=2", descricao: "O melhor da linha Android.", emEstoque: true },
-        { id: 3, nome: "MacBook Air", preco: 7200.00, categoria: "Notebooks", imagem: "https://picsum.photos/200/200?random=3", descricao: "Leve, potente e com bateria duradoura.", emEstoque: false },
-        { id: 4, nome: "Dell Inspiron", preco: 4100.00, categoria: "Notebooks", imagem: "https://picsum.photos/200/200?random=4", descricao: "Ideal para trabalho e estudos.", emEstoque: true },
-        { id: 5, nome: "Mouse Gamer", preco: 150.00, categoria: "Acessórios", imagem: "https://picsum.photos/200/200?random=5", descricao: "RGB com 12000 DPI.", emEstoque: true },
-        { id: 6, nome: "Teclado Mecânico", preco: 350.00, categoria: "Acessórios", imagem: "https://picsum.photos/200/200?random=6", descricao: "Switch Blue para melhor feedback.", emEstoque: true },
-        { id: 7, nome: "PlayStation 5", preco: 4500.00, categoria: "Games", imagem: "https://picsum.photos/200/200?random=7", descricao: "Console de última geração.", emEstoque: false },
-        { id: 8, nome: "Controle Xbox", preco: 400.00, categoria: "Games", imagem: "https://picsum.photos/200/200?random=8", descricao: "Compatível com PC e Console.", emEstoque: true }
+        { id: 1, nome: "iPhone 13", preco: 2849.00, categoria: "Celulares", imagem: "https://tinyurl.com/ycv6upcp", descricao: "Smartphone Apple com excelente câmera.", emEstoque: true },
+        { id: 2, nome: "Samsung S22", preco: 1229.00, categoria: "Celulares", imagem: "https://tinyurl.com/6ey2d7k3", descricao: "O melhor da linha Android.", emEstoque: true },
+        { id: 3, nome: "MacBook Air", preco: 7399.00, categoria: "Notebooks", imagem: "https://tinyurl.com/23ujn27m", descricao: "Leve, potente e com bateria duradoura.", emEstoque: false },
+        { id: 4, nome: "Dell Inspiron", preco: 3899.00, categoria: "Notebooks", imagem: "https://tinyurl.com/573ryemj", descricao: "Ideal para trabalho e estudos.", emEstoque: true },
+        { id: 5, nome: "Mouse Gamer RedDragon", preco: 149.00, categoria: "Acessórios", imagem: "https://tinyurl.com/59ymtmwh", descricao: "RGB com 12000 DPI.", emEstoque: true },
+        { id: 6, nome: "Teclado Mecânico", preco: 349.00, categoria: "Acessórios", imagem: "https://tinyurl.com/56uaambt", descricao: "Switch Blue para melhor feedback.", emEstoque: true },
+        { id: 7, nome: "PlayStation 5", preco: 4499.00, categoria: "Games", imagem: "https://tinyurl.com/3c85e8ct", descricao: "Console de última geração.", emEstoque: false },
+        { id: 8, nome: "Controle Xbox", preco: 399.00, categoria: "Games", imagem: "https://tinyurl.com/yknpnww8", descricao: "Compatível com PC e Console.", emEstoque: true }
     ]
 };
 
