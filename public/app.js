@@ -1,12 +1,3 @@
-// ====================================
-// JSON COM DADOS DO PROJETO
-// ====================================
-
-// ===================================================
-// ALTERE AQUI:
-// Adicione novos itens ou edite as informações.
-// ===================================================
-
 const dados = [
 
   {
@@ -15,7 +6,7 @@ const dados = [
     titulo: "Pontos Turísticos",
 
     descricao:
-      "Explore cachoeiras, trilhas e paisagens incríveis.",
+      "Explore trilhas e paisagens incríveis. E inclusive o cartão-postal da cidade, a Pedra Grande.",
 
     conteudo:
       "Igarapé possui diversas atrações naturais que encantam turistas durante todo o ano. A cidade conta com trilhas ecológicas, áreas verdes preservadas e cachoeiras ideais para lazer e contato com a natureza.",
@@ -25,26 +16,21 @@ const dados = [
     imagem:
       "https://www.minasgerais.com.br/imagens/atracoes/1506107885pMVQBd5p1n.jpg",
 
-    // ====================================
-    // ALTERE AQUI:
-    // Informações extras do tópico
-    // ====================================
-
     localizacao:
       "Zona rural de Igarapé - MG",
 
     horario:
-      "08:00 às 18:00",
+      "Horários adequados para visitação: 08:00 às 18:00",
 
     destaque:
-      "As cachoeiras da região atraem centenas de visitantes durante o verão.",
+      "A Pedra Grande de Igarapé é um pico rochoso a 1.400 metros de altitude na divisa de Igarapé e Itatiaiuçu (MG). Com uma trilha de nível moderado e cerca de 3 km de extensão (ida), é famosa pela vista panorâmica da região e por ser um point para o nascer do sol.",
 
     curiosidade:
-      "Muitas trilhas da cidade possuem vegetação típica do cerrado mineiro.",
+      "O antigo nome de Igarapé era Barreiro. A região começou a se desenvolver com esse nome e, em 1931, passou a ser a sede do distrito. A designação atual, Igarapé, foi oficializada por meio de um decreto em 30 de dezembro de 1938.",
 
     galeria: [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+      "https://portalagita.com.br/wp-content/uploads/2023/08/Pedra-Grande-Igarape-1.jpeg",
+      "https://www.otempo.com.br/content/dam/otempo/editorias/cidades/2023/9/cidades-whatsapp-image-2023-09-07-at-120536jpeg-1709013623.jpeg"
     ]
   },
 
@@ -65,10 +51,10 @@ const dados = [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/a8/a4/79/ambiente.jpg?w=900&h=-1&s=1",
 
     localizacao:
-      "Centro de Igarapé - MG",
+      "R. João Rosa, 317 - Senhora de Fátima, Igarapé - MG, 32510-016",
 
     horario:
-      "11:00 às 23:00",
+      "11:00 às 00:00",
 
     destaque:
       "Os restaurantes locais oferecem pratos típicos como feijão tropeiro e frango com quiabo.",
@@ -77,8 +63,8 @@ const dados = [
       "A culinária local mistura tradições do interior mineiro com receitas familiares.",
 
     galeria: [
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0"
+      "https://scontent.fplu16-1.fna.fbcdn.net/v/t39.30808-6/307485356_521110870025425_4513532103140744393_n.png?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=3nEAx7_hWgYQ7kNvwHCehxS&_nc_oc=AdpJpB3Kk8XSBt_Dy4VlumHsosalv66ZenRMCmlH-IdvOAXob5kpp6dqRfXr7bywoQ4&_nc_zt=23&_nc_ht=scontent.fplu16-1.fna&_nc_gid=K0vmHuAIo1DezIauNwN7Cg&_nc_ss=7b289&oh=00_Af4mJ-eORiafn1xErHfdmh4C9bGJ3gl9abTziaMZYbk3zQ&oe=6A0EC66E",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/d8/48/58/restaurante-mineirinho.jpg?w=1000&h=-1&s=1"
     ]
   },
 
@@ -99,7 +85,7 @@ const dados = [
       "https://diocesedivinopolis.org.br/wp-content/uploads/2014/08/Matrizsantoantonioigarape.jpg",
 
     localizacao:
-      "Praça Central - Igarapé",
+      "Igreja Matriz de Santo Antônio, Pça Miguel Henriques da Silva, 155 - Centro, Igarapé - MG, 32900-000",
 
     horario:
       "Eventos em datas comemorativas",
@@ -111,8 +97,8 @@ const dados = [
       "Grande parte das tradições culturais foi preservada por famílias locais ao longo das gerações.",
 
     galeria: [
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819",
-      "https://images.unsplash.com/photo-1506157786151-b8491531f063"
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/af/a7/b7/matriz-de-santo-antonio.jpg?w=1000&h=-1&s=1",
+      ""
     ]
   },
 
@@ -130,10 +116,10 @@ const dados = [
     categoria: "História",
 
     imagem:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSiJaTbCxymwbXav2hIMQO9jgiS7_MASku7w&s",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bandeira_de_Igarap%C3%A9.jpg",
 
     localizacao:
-      "Centro Histórico",
+      "R. São Vicente, 1100 - Três Poderes, Igarapé - MG, 32900-000",
 
     horario:
       "Visitação livre",
@@ -145,16 +131,12 @@ const dados = [
       "A cidade teve crescimento impulsionado pela agricultura e comércio regional.",
 
     galeria: [
-      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
-      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8"
+      "https://portalagita.com.br/wp-content/uploads/2024/02/Casa-da-Cultura-de-igarape-3-e1739573988349.jpeg",
+      "https://www.minasgerais.com.br/imagens/atracoes/1589473973e50SsuSKdt.jpg"
     ]
   }
 
 ];
-
-// ====================================
-// HOME PAGE
-// ====================================
 
 const cardsContainer =
   document.getElementById("cards-container");
